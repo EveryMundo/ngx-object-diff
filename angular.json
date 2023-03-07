@@ -139,6 +139,6 @@
           }
         }
       }
-    }},
-  "defaultProject": "ngx-object-diff"
+    }
+  }
 }
