@@ -1,5 +1,5 @@
 {
-  "name": "ngx-object-diff-workspace",
+  "name": "@everymundo/ngx-object-diff-workspace",
   "version": "0.0.3",
   "description": "An Angular 2+ library to compare and show object differences.",
   "author": {

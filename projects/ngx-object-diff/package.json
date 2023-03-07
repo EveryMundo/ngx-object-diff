@@ -1,5 +1,5 @@
 {
-  "name": "ngx-object-diff",
+  "name": "@everymundo/ngx-object-diff",
   "version": "0.0.3",
   "description": "An Angular 2+ library to compare and show object differences.",
   "author": {
@@ -8,8 +8,8 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "@angular/common": "^8.2.14",
-    "@angular/core": "^8.2.14"
+    "@angular/common": ">=^13.0.0",
+    "@angular/core": ">=^13.0.0"
   },
   "repository": {
     "type": "git",
