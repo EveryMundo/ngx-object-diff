@@ -20,10 +20,10 @@
     ],
     "paths": {
       "ngx-object-diff": [
-        "dist/ngx-object-diff"
+        "./projects/ngx-object-diff"
       ],
       "ngx-object-diff/*": [
-        "dist/ngx-object-diff/*"
+        "./projects/ngx-object-diff/*"
       ]
     }
   },
