@@ -26,6 +26,7 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('ngx-object-diff-showcase app is running!');
+    console.log(compiled);
+    expect(compiled.querySelector('span.title').textContent).toContain('ngx-object-diff-showcase app is running!');
   });
 });
