@@ -19,6 +19,9 @@
     "url": "https://github.com/saurabh47/ngx-object-diff/issues"
   },
   "homepage": "https://github.com/saurabh47/ngx-object-diff",
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
   "keywords": [
     "angular",
     "angular2+",
