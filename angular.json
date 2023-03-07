@@ -58,7 +58,6 @@
             "main": "projects/ngx-object-diff-showcase/src/main.ts",
             "polyfills": "projects/ngx-object-diff-showcase/src/polyfills.ts",
             "tsConfig": "projects/ngx-object-diff-showcase/tsconfig.app.json",
-            "aot": true,
             "assets": [
               "projects/ngx-object-diff-showcase/src/favicon.ico",
               "projects/ngx-object-diff-showcase/src/assets"
@@ -66,7 +65,13 @@
             "styles": [
               "projects/ngx-object-diff-showcase/src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "vendorChunk": true,
+            "extractLicenses": false,
+            "buildOptimizer": false,
+            "sourceMap": true,
+            "optimization": false,
+            "namedChunks": true
           },
           "configurations": {
             "production": {
@@ -96,7 +101,8 @@
                 }
               ]
             }
-          }
+          },
+          "defaultConfiguration": ""
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
